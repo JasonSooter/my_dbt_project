@@ -1,0 +1,12 @@
+name: 'my_dbt_project'
+version: '1.0.0'
+profile: 'my_dbt_profile'
+source-paths: ['models']
+analysis-paths: ['analyses']
+test-paths: ['tests']
+seed-paths: ['seeds']
+macro-paths: ['macros']
+target-path: 'target'
+clean-targets:
+  - 'target'
+  - 'dbt_modules'
